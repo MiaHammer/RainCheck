@@ -9,18 +9,18 @@ label clicker_ending:
     show rain
     show bg2 onlydesks
 
-    mm "I stood frozen for a moment, panic grasping at my throat."
+    mm "I stand frozen for a moment, panic grasping at my throat."
     m phone "Right, I gotta get myself on lockdown here now Ann. ttyl"
 
     scene black
     show bg stairs at sshake
     play audio "audio/shakesound.ogg"
 
-    mm "I rushed from room to room, in the dark, checking every door, every window, every possible entrance into the house."
-    mm "At every corner my mind produced violent scenarios, ways in which I could get caught, hit, slashed, shot, tortured on the spot."
-    mm "At some point, I got into a trance, time was not a variable for me, I was checking locks on auto-pilot, while trying to vaguely stay in silence with every move."
-    mm "Every noise felt like the last."
-    mm "Eventually I locked down every possible entrance, and went back to my desk."
+    mm "I rush from room to room in the dark, checking every door, every window, every possible entrance into the house."
+    mm "At every corner, my mind produces violent scenarios - ways in which I could get caught, hit, slashed, shot, tortured on the spot."
+    mm "At some point, I enter a trance—time’s no longer a variable. I check all the locks on auto-pilot, vaguely trying to stay silent with every move."
+    mm "Every noise feels like the last."
+    mm "Eventually, I lock down every possible entrance, and go back to my desk."
     
     scene black
 
@@ -30,7 +30,7 @@ label clicker_ending:
 
     scene bg desk
     
-    mm "Coming back to my desk, I slowly veered towards the window and reluctantly peered through it."
+    mm "Back at my desk, I slowly veer toward the window and reluctantly peer through it."
     m concern "Are {color=#ff0d21}They{/color} still there…?"
 
     scene streetwindow rainon
@@ -57,8 +57,8 @@ label clicker_ending:
 
     play sound "audio/ticking-clock.mp3" loop
 
-    mm "While laying down, I tried to put my head back into place."
-    mm "I tried to process it all."
+    mm "While I lay down, I try to put my head back into place."
+    mm "I try to process it all."
     
     menu:
         "Check your phone":
@@ -73,10 +73,10 @@ label clicker_ending:
 
 
 label phone_checked:
-    mm "I grabbed my phone, there were multiple message notifications from Annie asking if I was safe."
+    mm "I grab my phone, there are multiple message notifications from Annie asking if I'm safe."
     mm "The most recent one was from 20 minutes ago."
     a phone "Maria, is everything alright? Please, call me again if you can."
-    m phone "I think I’m ok, ty."
+    m phone "I think I’m ok now, ty."
     m phone "I got all my doors and windows locked up tight. I’ll just try to calm down right now."
     a phone "Okay, call me tomorrow then?"
     m phone "Okay"
@@ -97,14 +97,16 @@ label frame_pictured:
     mm "This picture reminds me of a distant, cherished memory."
     scene cg ninjas with hypothetical_fade
 
-    mm "A memory of the time when I took a trip, and with nothing to do in the back seat of the car, I looked out the window and imagined multiple superhuman Ninjas parkouring through the landscape."
-    mm "In my mind, they did flips, ran on electricity wires, rolled under pedestrians, climbed trees, went up and down houses…"
-    mm "And then they stopped, took rests and did cool poses whenever the car stopped at a red light."
+    mm "A memory of those family trips, when, with nothing to do in the back seat of the car, I’d look out the window and imagine a ninja parkouring through the landscape."
+    mm "In my mind, he did flips, ran on electricity wires, rolled under pedestrians with his invincibility frames, climbed trees, went up and down houses…"
+    mm "And then he'd stop, take rests and strike cool poses whenever the car stopped at a red light."
 
     scene black with hypothetical_fade
 
     m neutral "..."
-    m neutral "I miss those family road trips."
+    m queiss "Maybe I played too many browser games growing up."
+    m queiss "This is so random."
+    m neutral "But I miss those family road trips."
     m concern "I miss the simpler times."
     m neutral "..."
 

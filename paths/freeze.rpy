@@ -17,10 +17,13 @@ label freeze_ending:
 
     scene cg gecko with hypothetical_fade
 
-    m concern "Crawling behind the curtains at night. Hiding behind my favorite book on the shelf, just out of sight."
-    m concern "I cannot stand being in the vicinity of those creatures. They completely break the peace and any illusion of personal space by just existing, with me knowing they might, or might not, still be there."
-    m concern "And the idea that they could just jump on top of me at any second, from outside my field of view, if they so desired?"
-    m concern "It is pure agony, and makes it so hard for me to sleep at night, if I ever catch a glimpse of them."
+    m "Crawling behind the curtains at night. Hiding behind my favorite book on the shelf, just out of sight."
+    m "Most people think they’re kinda cute, but for me, they’re like most people’s spiders." # putting suggestion here
+    m "Maybe my ancestors got royally messed up by a dinosaur once."
+    m "…"
+    m "I cannot stand being in the vicinity of those creatures. They completely break my illusion of personal space by just existing, with me knowing they might, or might not, be there."
+    m "And the idea that they could just jump on top of me at any second, from outside my field of view, if they so desired?"
+    m "It is pure agony, and makes it so hard for me to sleep at night, if I ever catch a glimpse of them around."
 
     scene black
     show cg sidewalk at center:
@@ -45,7 +48,7 @@ label freeze_ending:
 
     play music "audio/music/Out_Of_The_Window.mp3"
 
-    m shock "{color=#ff0d21}They{/color} jumped my fence, stepped into the front garden and quickly went for the front door."
+    mm "{color=#ff0d21}They{/color} jump my fence, step into the front garden and quickly go for the front door."
     m concern "…"
 
     play sound "door.ogg"

@@ -43,7 +43,9 @@ define a = Character("Annie", color="#21be44", image="a", callback=boopy_voice, 
 image side a neutral = im.Scale("Annie1.png", 200, 200)
 image side a concern = im.Scale("Annie2.png", 200, 200)
 image side a phone = im.Scale("Phone.png", 200, 200)
+image a bakery = "Annie3.png"
 define p = Character("Policewoman", color="#1131aa", callback=boopy_voice, cb_boopfile="policewoman.mp3")
+define old = Character("Customer", color="#848", callback=boopy_voice, cb_boopfile="policewoman.mp3")
 define c = Character("Customer", color="#1131aa", callback=boopy_voice, cb_boopfile="man.mp3")
 define t = Character("", callback=boopy_voice, what_prefix="{cps=6}", what_suffix="{/cps}")
 define n = Character("", callback=boopy_voice, cb_boopfile="narration.mp3")
@@ -364,7 +366,7 @@ image mariaMovingSideways:
         easeout 0.25 yoffset 10
         easein 0.25 yoffset 0
         easeout 0.25 yoffset 10
-        easein 0.25 yoffset 0
+        ease 0.25 yoffset 0
 
 
 layeredimage staticSidewaysScene:

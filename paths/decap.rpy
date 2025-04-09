@@ -9,7 +9,7 @@ label decap_ending:
     scene bg stairs at sshake
     play audio "audio/shakesound.ogg"
     mm "I almost tripped running down the stairs to the hallway, and then to the garage."
-    mm "I pulled out my phone and messaged Annie to let her know I’m coming:"
+    mm "I pull out my phone and message Annie to let her know I’m coming:"
     m phone "Hey Annie, are you still awake?"
     a phone "Yeah"
     m phone "I think I’d feel safer sleeping at your place tonight, would that be ok?"

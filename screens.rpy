@@ -291,6 +291,7 @@ screen navigation():
 
     if persistent.cows >= 100:
         $ achievement.grant("overflow")
+        $ achievement.sync()
 
     vbox:
         style_prefix "navigation"

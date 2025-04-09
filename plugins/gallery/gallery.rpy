@@ -20,6 +20,7 @@ init python:
     gallery.button("annie")
     gallery.image("annie1")
     gallery.image("annie2")
+    gallery.image("annie3")
 
     gallery.button("phone")
     gallery.image("phone")

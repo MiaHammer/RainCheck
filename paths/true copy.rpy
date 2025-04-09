@@ -1,4 +1,4 @@
-label true_ending:
+label true_ending_copy:
     
     stop music
     stop sound
@@ -24,7 +24,6 @@ label true_ending:
 
     play music "audio/music/chocolate.mp3" loop volume 0.5
 
-    scene black
     show stoppingCity at center:
         yoffset -50
     #show boiSubway drain
@@ -43,16 +42,14 @@ label true_ending:
     scene black with hypothetical_fade
     stop music fadeout 1.0
 
-    t "(5:00 - ?????)"
+    pause 1.0
+
+    t "(5:50 - Street)"
 
     scene bg white with truthFade
 
     mm "It’s time to wake up."
     mm "I need to get dressed, and get to the bakery."
-
-    pause 1.0
-
-    t "(5:50 - Street)"
     
     scene street morning
 
@@ -65,9 +62,9 @@ label true_ending:
     pause 2.0
 
     #…
-    mm "At 6 in the morning, I always notice a slightly blue tint in the still empty street."
+    mm "At 6 in the morning, I always notice the still empty street, lit in a slightly blue tint."
     mm "There’s something about this timeframe that makes me a little happy and somewhat hopeful. As if the possibilities were endless."
-    mm "Almhuf is a small city, and an hour from now, most of the population is going to fill the streets, commuting to the one factory in town."
+    mm "It’s a small city, and an hour from now, most of the population is going to fill the streets, commuting to the one factory in town."
     mm "Some of them, passing by to buy some baked goods, some of them, doing their morning jog."
     mm "But right now, it’s just me and a public worker sweeping the streets."
     mm "Cozy vibes."
@@ -89,48 +86,15 @@ label true_ending:
     mm "I get so tired of not being home for so long every day."
     mm "I can feel how much older I’ve gotten. I’m so tired."
     mm "I listen to the same playlist of songs every day to make it go by quicker, purposefully picking multiple 10 minute songs to put on my playlist."
-    mm "Then I’d know 1 / 6 of an hour has finally passed and I’m closer to finally going home."
-    mm "This helps me cope, daily. And I also can’t deny it smells nice in here."
+    mm "Then I’d know 1 / 6 of an hour has finally passed and I’m closer to finally going the fuck home."
+    mm "This helps me cope, daily. And at least it smells nice in here."
     mm "But still, I wish for more."
+    mm "I want to be more."
     mm "…"
 
-    show a bakery with dissolve
+    pause 0.5
 
-    a "Good morning!"
-    m "Hey, Ann!"
-    a "Have you calmed down? You look a lot brighter today, Mari."
-    m "Yeah, I think so. Thank you for keeping me company yesterday night."
-    a "Had to pay you back for the secret bread recipe you leaked just for me!"
-    m "Ah, right. Hehee~"
-    m "… Say, Ann, do you have time later tonight? I have something important to tell you."
-    a "Oh, yes, I believe so. Today is my day off from Uni! What is it though?"
-    m "Well, you’ll have to wait…"
-    a "Ahhhhh Mariiii you know I hate surprises… Please tell me now!"
-    m "Mmmmm, sure, you’ve been a good girl lately. I’ll tell you:"
-    m "Would you like to try making a game with me?"
-    #(Ann blushes)
-    a "Oh."
-    m "…"
-    m "It’s okay, I know it’s unreasonable, I know we’re all busy nowadays."
-    a "Mari… I just…"
-    a "I’d love that. I thought you’d never ask."
-    a "Let’s do it! I’ve kinda always wanted to try something with you too. We can split the workload and finish it together! It’ll be fun!"
-    m "I’m… so glad! I didn’t expect you’d actually accept just like that."
-    m "I’ll try to sketch some things out for tomorrow night then so we can brainstorm stuff together!"
-    a "Yes, let’s gooooo!!!"
-    mm "An older lady slowly approaches the counter."
-    old "Good morning! I’d like to order some cheesebread."
-    m "Be right with you, madam."
-    mm "I give Ann a wink and get back to work."
-    mm "She waves her hands excitedly in farewell and leaves."
-    hide a bakery with dissolve
-    mm "…"
-
-    scene bg white with bakeryFade
-
-    mm "Time flies by as I imagine what we’ll make of tonight."
     mm "And suddenly, I’m clocking out."
-
     #…
 
     scene street evening with bakeryFade
@@ -147,7 +111,7 @@ label true_ending:
     mm "And for what? I’ll be too mentally clocked out to work on what I actually want to create anyway."
     mm "Maybe it’s just the fact that I don’t have responsibilities to anyone but me there."
     mm "I can be a lazy mess, watch streams and just shut out anything outside."
-    mm "That’s how I usually think, but not today. I have a duty to make this project work. A duty to myself, and now also to Ann."
+    mm "But… is that really what I wanna be doing? Just wasting my days away?"
     mm "…"
 
     stop sound

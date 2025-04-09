@@ -47,7 +47,7 @@ label start:
     n "…"
     n "A certain level of anxiety and precaution is good for our longevity, but too much can possibly lead to a miserable existence."
     show boiSubway refrain
-    n "I used to try sealing away the origin of my stress, only to despair later when I was unprepared for the worst." # putting suggestion here
+    n "I used to try to seal away the origin of my stress, only to despair later when I was unprepared for the worst."
     show boiSubway brain
     n "But nowadays, I prefer to rush into things head-on."
     n "I think it’s the best way to handle things, especially for Bullheads like me, with precious little time on this Earth."
@@ -75,34 +75,24 @@ label start:
 
     play sound "audio/rain.mp3" loop
 
-    n "Maria found solace in her room, it was her very own sanctuary."
-    n "There, it was easier to ignore all her bothers."
-    n "Maria has always wanted to make art for games, but she was always reluctant to follow up on that plan."
-    n "It scared her: The prospect of making a project that performs badly, and wasting all of that time for nothing."
-    n "Besides, she just cannot keep a consistent practice routine, her art has looked the same for years, she doesn’t believe it’s good enough for a real game. Her game ideas aren’t even that good."
-    
-    n "… But it wasn’t always like this. Maria has been scarred."
-    n "The world outside was unforgiving. Ruthless, at points."
-    n "It led to so much pain, exposing her vulnerable side to the world."
-    n "Right now, she needs safety. The unknown is too great a risk. The next step, nebulous. She can’t afford to take any risks, not now."
-    m "This is fine, I’ll start working on it next weekend."
-    n "She muttered to herself."
+    mm "I've always found solace in my room, it’s my very own sanctuary."
+    mm "It’s easier to ignore all my issues here."
 
     show galDesk deskmariadiscord
 
-    n "Maria scrolls to and from her favorite group chat, checking if her best friend, Annie, the owner of the server, has written anything tonight."
+    mm "As usual, I open social media and scroll to and from my favorite group chat, checking if my best friend, Annie, the owner of said group chat, has written anything tonight."
     m "Guess she hasn’t come back from work yet."
-    n "As the minutes passed, Maria felt a familiar sense of loneliness."
-    n "She went through every new message, every notification, there was nothing else worth reading, but she kept scrolling."
-    n "She considered writing about her situation there."
-    n "But in the end, she felt better just reading other people’s stories and commiserating with them, giving them advice, or expressing empty sympathy."
-    n "Maria liked reminding herself there are always people worse off than her in this world, and that she should probably be grateful."
-    n "But at the same time, she knew deep down she didn’t personally care about any of them. "
-    n "And she was absolutely sure, none of them cared for her either."
-    n "At the smallest hint of a differing opinion, at the shallowest glimpse of a misunderstanding, they'd aggressively turn on her."
-    n "Maria was overwhelmed, some days she wanted to scream, but at the same time, she couldn’t fathom opening up to more people, revealing her weaknesses, only for them to abuse her in return."
-    n "…"
-    n "Anyway, it looks like Annie is home."
+    mm "As the minutes pass, I feel a familiar sense of loneliness."
+    mm "I go through every new message, every notification, there's nothing else worth reading, but I keep scrolling."
+    mm "I consider writing about what’s going on with me there, writing opinions about the latest game I played, or what I am expecting out of the next."
+    mm "But in the end, I feel better just reading other people’s stories and commiserating with them, giving them advice, or expressing sympathy towards them."
+    mm "Reminding myself there are always people worse off than me helps. I am grateful for what I have, and should strive to express myself positively."
+    mm "But I know deep down I don’t care about any of these people. And I’m absolutely sure none of them care about me either."
+    mm "At the smallest hint of a differing opinion, at the slightest glimpse of a misunderstanding, a stressful, completely useless argument would follow."
+    mm "I’m not cut out for that anymore."
+    mm "I’m overwhelmed, some days I want to scream, but at the same time, I can’t fathom opening up to more people, revealing my weaknesses, only for them to abuse me in return."
+    mm "…"
+    mm "It looks like Annie is home now."
     
 
     stop sound
@@ -144,11 +134,11 @@ label start:
     a "So Maria, what have you been up to?"
     m "I’ve been thinking of making some art and maybe making a game again. I’ve been posting some of my old drawings around, but they don’t seem to gain any traction online."
     m "I feel like a fraud, and that I’ll never escape being a wage slave with no energy for anything productive at home."
+    a "Yeah, that sucks... But I do think your drawings are lovely! Even though I don’t see you making them that often anymore."
+    m "Thanks. You don’t need to lie though, my stuff kinda sucks and hasn't improved in ages."
 
     show cg mariaandanniecall2
 
-    a "Yeah, that sucks... But I do think your drawings are lovely! Even though I don’t see you making them that often anymore."
-    m "Thanks. You don’t need to lie though, my stuff kinda sucks and hasn't improved in ages."
     a "I’m not lying! Maria, I know it’s kinda delicate, but please stop with the self deprecation, for your own good."
     a "It never leads to a good place."
     m "I know all of that already. You don’t need to lecture me."
@@ -157,15 +147,15 @@ label start:
 
     show cg mariaandanniecall1
 
-    a "The grind for anything worthwhile always sucks, especially when it relies on luck and other people, but you will be okay in the end. If you have a dream, go for it!"
+    a "The grind always sucks, especially when it relies on luck and other people, but you will be okay in the end. If you have a dream, please don’t let go of it"
     a "Anyway, brb"
 
     stop sound
 
     scene black
 
-    n "In-between episodes, they took a little break from watching, so that Annie could pick up her bread."
-    n "Meanwhile, Maria sits with her own thoughts, waiting."
+    mm "In-between episodes, we take a little break from watching, so that Annie can pick up her bread."
+    mm "Meanwhile, I sit with my own thoughts for a bit."
 
     scene cg mariaandanniecall1
 
@@ -183,7 +173,7 @@ label start:
     stop sound
 
     scene black
-    n "After watching another episode, they wish each other a good night and go to bed."
+    mm "After watching another episode, we wish each other a good night and go to bed."
 
     pause 0.5
     
@@ -191,10 +181,9 @@ label start:
 
     play sound "audio/ticking-clock.mp3" loop
 
-    n "Tonight, the quiet felt different."
-    n "Maria couldn’t sleep. She felt her mind grow anxious."
-    n "She had an urge to get back up and went back to her desk, nonetheless, unsettled."
-
+    mm "Tonight, the quiet feels different. I can't sleep."
+    mm "I already know from experience staying in bed doesn’t help when my mind grows anxious. I need to do something about this."
+    
     stop sound
 
     scene black
@@ -207,25 +196,29 @@ label start:
 
     play sound "audio/raven-call.mp3" loop
 
-    n "Maria sat with a pencil over the page. She glanced toward the window."
+    mm "Sitting with a pencil over the page, I glance toward the window."
 
     scene streetwindow framey
 
-    n "She felt a heavier than usual atmosphere, the skies above were pitch black."
+    mm "I feel a heavier than usual atmosphere, the skies above are pitch black."
     
     scene black
     show cg der notizblock
     
-    n "…"
-    n "Her hand started trembling, yet she kept it hovering over the page."
-    n "…"
-    n "All she had to do was put it down."
-    n "…"
-    n "Push it down and she can finally make some progress."
-    n "But she couldn’t. She felt trapped."
-    n "Trapped in the future."
-    n "Too cognizant of the outcome, to be able to live out the process."
-    n "…"
+    mm "…"
+    mm "My hand trembles, as I try to keep the pencil hovering over the page."
+    mm "…"
+    mm "Push it down and I can finally make some progress."
+    mm "I can’t. I feel trapped."
+    mm "Trapped in the future."
+    mm "Too cognizant of the outcome, to be able to live out the process."
+    mm "…"
+    mm "I's scary: The prospect of sketching something today worse than yesterday, and wasting all of that time for nothing."
+    mm "I’ve never been able to keep a consistent practice routine. My art has looked the same for years."
+    mm "… But it wasn’t always like this."
+    mm "The world outside is unforgiving. Ruthless, at points. It leads to so much pain, exposing my vulnerable side to the world. Right now, I crave safety. "
+    mm "The unknown is too great a risk. The next step, nebulous."
+    mm "…"
 
     stop sound
 
@@ -239,36 +232,30 @@ label start:
 
     show cg der notizblock
 
-    n "Usually, Maria had extreme trouble focusing with any kind of noise, but the rain was different."
-    n "Accompanied by the beautiful sounds of the rain, she feels calm, like she can
-    get under a comfy blanket, with nobody bothering her."
-    n "But she doesn’t feel like she deserves to be feeling comfortable. Not at this
-    point. She needs to be productive."
-    n "Everyone else’s life is progressing steadily but hers. Why is that?"
-    n "…"
-    n "She noticed the streetlight beside her house was starting to flicker."
-    m neutral "Well, at least it’s trying its best."
-    n "…"
-    n "She was in her very own mental space, yet nothing came of it." # queissssss
-    n "…"
-    n "Light shifts over the window."
-    n "…"
-    m queiss "… What?"
+    mm "Usually, I have trouble focusing with any kind of noise, but the rain is different."
+    mm "Accompanied by the beautiful sounds of the rain, I feel calm, like I can get under a comfy blanket and just exist in peace."
+    mm "But at the same time I don’t feel like I deserve to be feeling comfortable now."
+    mm "…"
+    mm "I notice the streetlight beside my house starting to flicker."
+    mm "…"
+    show cg der notizblock with flashInOut
+    mm "…"
+    m queiss "… What’s going on out there at this time of the night?"
 
     scene streetwindow figurehere rainon
     with flashInOut
 
     pause 3.0
 
-    mm "I froze, with my heart pounding in my chest."
-    mm "Was there someone standing there? For what possible reason?"
-    mm "I could barely make out this figure—someone wearing a red raincoat?"
-    mm "{color=#ff0d21}They{/color} were standing there, in the middle of the street, shifting slightly, as if drowsy."
-    mm "It felt like {color=#ff0d21}They{/color} were looking vaguely in my direction."
+    mm "I freeze, with my heart pounding in my chest."
+    mm "Is there someone standing there? Why?"
+    mm "I can barely make out this figure—someone wearing a red raincoat?"
+    mm "{color=#ff0d21}They{/color} are standing there, in the middle of the street, shifting slightly, as if drowsy."
+    mm "It feels like {color=#ff0d21}They{/color} are looking vaguely in my direction."
 
     play music "audio/echoing-kick-drum.mp3" fadein 3.0 loop
 
-    mm "Suddenly, my thoughts started racing in a chaotic whirl."
+    mm "Suddenly, my thoughts start racing in a chaotic whirl."
     m shock "Is that a stalker!? A burglar scouting my house!?"
     m concern "What the fuck."
 
@@ -279,8 +266,8 @@ label start:
     show bg2 onlydesks at sshake
     play audio "audio/shakesound.ogg"
 
-    mm "I had to act. Fast."
-    mm "My hands trembled as I grabbed my phone and dialed the cops."
+    mm "I have to act. Fast."
+    mm "My hands tremble as I grab my phone and dial the cops."
 
     p "Almhuf Police, what’s your emergency?"
     scene black
@@ -297,7 +284,7 @@ label start:
     p "I understand this must feel unsettling, but unless they take further action,
     there’s not much we can do right now. It’s not unusual for drunk people to act weirdly,
     even if it seems odd."
-    mm "She said in an aggressively direct tone that left me without any will to continue this conversation."
+    mm "She says in an aggressively direct tone that leaves me without any will to continue this conversation."
     p "Please, lock your doors and windows. If the situation escalates, do call us
     immediately."
     m concern "... Ok"
@@ -305,8 +292,8 @@ label start:
     show rgbFigure at top behind bg2
     hide theFigure
 
-    mm "The line went dead, and the shade outside stopped moving completely."
-    mm "I recoiled, my breathing got heavier."
+    mm "The line goes dead. Outside, the figure stops moving completely."
+    mm "I recoil, my breathing gets heavier."
     m concern "Nobody’s coming…"
 
     scene black
@@ -319,7 +306,7 @@ label start:
     m phone "Yeah… I’m freaking out rn."
     a phone "If you’d like, you can stay overnight at my place? Though I’m not sure if it’d
     be wise to leave your house right now."
-    m phone "I didn’t even check the doors and windows yet. I’m in shock"
+    m phone "I haven’t even checked the doors and windows yet. I’m in shock"
     a phone "You should do that! Check everything right now!"
     m phone "I think I will…"
 

@@ -13,7 +13,7 @@ label trailer:  #auto-forward below first r, Text speed between T and i
 
     m neutral "I've been stressed. Every day feels shorter than the last."
 
-    m "My thoughts are blind to my fleeting soul. Out of sight, out of mind."
+    m "My thoughts are blind to my soul. Out of sight, out of mind."
 
     m concern "All I can do is lay down once more and wait for yet another day."
 
@@ -21,9 +21,17 @@ label trailer:  #auto-forward below first r, Text speed between T and i
 
     m neutral "It's not hard keeping this act up. I already know all my lines."
 
-    m concern "But I can't bear treading the beaten path much longer... what can I do?"
+    m concern "But I can't bear treading the beaten path much longer..."
 
-    b "It sounds like you made up your mind."
+    b "…"
+
+    b "“Don’t run. Don’t scream. Don’t cross the line”"
+
+    b "There’s value in following rules, and yet sometimes they feel like double edged swords. For all we know, you could be trying your hardest, and yet be riding on the opposite lane to what you truly want. Who could say?"
+
+    m neutral "…"
+
+    b "It looks like you made up your mind."
 
     show boiSubway strain
 
@@ -32,6 +40,7 @@ label trailer:  #auto-forward below first r, Text speed between T and i
     m "…"
 
     b "Good luck…"
+
 
     pause 1.4
 
